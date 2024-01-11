@@ -29,7 +29,7 @@ function App() {
   function resetHandler(){
     setBill("");
     setRating1(0);
-    setRating2(0)
+    setRating2(0);
   }
 
   return (
