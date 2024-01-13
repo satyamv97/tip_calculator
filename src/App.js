@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      <Billamount 
+      <Billamount  
       bill={bill}
       onChangeBill = {billHandler}
       
@@ -42,7 +42,7 @@ function App() {
       <Rating rating={rating1}
       OnRatingChange = {ratingchangeHandler1}
       >
-        How did you like the service</Rating>
+        How did you like the service ?</Rating>
       <Rating rating={rating2} 
       OnRatingChange = {ratingchangeHandler2}
       >
